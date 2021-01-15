@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color</title>
+  </head>
+  <body>
+    <ul>
+    {{- range $i, $element := .Elements }}
+      <li>*color{{ $i }}: {{ $element -}}</li>
+    {{- end }}
+    </ul>
+  </body>
+</html>
